@@ -8,7 +8,7 @@ Pour ajouter un site pull-request des modifs sur : `api/datas_annuaires.php`
 
 Pour améliorer le code idem, mais restez le plus stupide possible.
 
-# BRUTAL DEV DESIGN - BDD
+# BRUTAL DEV DESIGN - BDD-APP @Inside
 
 Ce developpement suit la logique du BRUTAL DEV DESIGN. 
 

@@ -15,6 +15,11 @@ require_once 'datas_config.php';
     <title>API</title>
 </head>
 <body>
+<h1>BDD-APP @Inside</h1>
+<p>
+    Cette application est bâtie selon la BRUTAL DEV DESIGN  Philosophie.
+</p>
+
 <h1><a href="/api/annuaire">GET /api/annuaire</a></h1>
 <p>
     Renvoi l'annuaire pour être 'inclus' en tant que block HTML (Curl etc ...)
