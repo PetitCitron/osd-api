@@ -5,8 +5,8 @@
  * @var array $datas_config importé depuis 'datas_config.php';
  * @var array $datas_links importé depuis 'datas_links.php';
  */
-include 'datas_config.php';
-include 'datas_links.php';
+require_once 'datas_config.php';
+require_once 'datas_links.php';
 
 header('Content-type: application/x-xml');
 header('Content-Disposition: attachment; filename="shaarlis.opml"');

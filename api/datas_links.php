@@ -5,7 +5,7 @@
  * @var array $datas_annuaire importé depuis 'datas_annuaire.php';
  */
 
-include 'datas_annuaire.php';
+require_once 'datas_annuaire.php';
 
 $datas_links = [];
 /** @var array $datas_annuaire from datas_annuaire */

@@ -1,3 +1,13 @@
+<?php
+/**
+ * Mode d'emploi de l'API
+ *
+ * @var array $datas_config   importé depuis 'datas_config.php';
+ */
+
+require_once 'datas_config.php';
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,9 +68,7 @@
 
 <h1>News</h1>
 <p style="color: grey">
-Prochainement d'autres possibilités, filtres catégories, api offres d'emplois etc... <br>
-Les liens '+ infos' sont volontairement supprimés de l'API, pour 'anonymiser' la source de l'annuaire. <br>
-Rien ne doit pointer vers oldschooldev.io dans l'API, si c'est le cas merci de me prévenir, c'est un bug. <br>
+<?= $datas_config['NEWS'] ?>
 </p>
 
 <a href="<?= $datas_config['RETURN_SITE_LINK'] ?>"><- Retour</a>

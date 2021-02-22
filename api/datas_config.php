@@ -9,6 +9,7 @@ $datas_config = [
     'ANNUAIRE_NAME' => 'L\'Annuaire Old School',
     'ALL_RSS_FILENAME' => 'oldschooldevio.opml',
     'RETURN_SITE_LINK' => '/api',
+    'NEWS' => 'Blablabla blabl bla LOREM',
 ];
 
 if($datas_config['DEBUG'] === true) {
