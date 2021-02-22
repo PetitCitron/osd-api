@@ -4,8 +4,9 @@
  */
 
 $datas_config = [
+    'DEBUG' => false,
     'API_NAME' => 'oldschooldev.io',
-    'DEBUG' => true,
+    'ANNUAIRE_NAME' => 'L\'Annuaire Old School',
     'ALL_RSS_FILENAME' => 'oldschooldevio.opml',
     'RETURN_SITE_LINK' => '/api',
 ];

@@ -1,0 +1,1 @@
+# En dev j'affiche les extension .php dans les liens d'index.php via ce fichier

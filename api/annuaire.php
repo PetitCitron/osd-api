@@ -2,7 +2,7 @@
 /**
  * Retourne une page HTML contenant l'annuaire
  *
- * @var array $config         importé depuis 'datas_config.php';
+ * @var array $datas_config   importé depuis 'datas_config.php';
  * @var array $datas_annuaire importé depuis 'datas_annuaire.php';
  */
 
@@ -29,16 +29,15 @@ if (!empty($_GET['withStyle']) && $_GET['withStyle'] == 1) {
 ?>
 
 <?php if ($writePage):
-    # Si on est en mode Page complète
-    echo '<!DOCTYPE html>
+     # Si on est en mode Page complète
+?>
+<!DOCTYPE html>
     <html>
         <head>
             <meta charset="utf-8">
-            <title>Annuaire de site OldSchool</title>
+            <title><?= $datas_config['ANNUAIRE_NAME'] ?></title>
         </head>
         <body>
-    ';
-    ?>
 <?php endif; ?>
 
 <?php if ($writeStyle):
@@ -76,7 +75,7 @@ if (!empty($_GET['withStyle']) && $_GET['withStyle'] == 1) {
 
     <div id="annuaire">
         <div class="annuaire_title">
-            <h1>L'Annuaire Old School</h1>
+            <h1><?= $datas_config['ANNUAIRE_NAME'] ?></h1>
         </div>
         <?php foreach ($datas_annuaire as $cat): ?>
             <div class="annuaire_cat_content" id="<?= $cat['cat_id'] ?>">
