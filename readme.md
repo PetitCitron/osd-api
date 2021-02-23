@@ -20,5 +20,7 @@ C'est le premier et pas le dernier code BDD qui va vous piquer les yeux !
 
 Le OldSchoolDev est de retour, et c'est l'anarchie des BEST PRACTICES !
 
+L'idée du BDD vient en grande partie de cet article : [Le brutalisme web design @4uto3!o6r4mm](http://autobiogramm.tuxfamily.org/brutalisme.html)
+
 
 Licence : MIT
