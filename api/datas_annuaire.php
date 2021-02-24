@@ -7,7 +7,7 @@ $datas_annuaire = [
     'shaarli_techs' => [
         'cat_name' => 'Shaarli | Techs',
         'cat_id' => 'shaarli_techs',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://lehollandaisvolant.net',
                 'name' => 'Le Hollandais Volant',
@@ -19,27 +19,27 @@ $datas_annuaire = [
                 'desc_long' => [''],
             ],
             [
-                'url' => 'https://sebsauvage.net/datas_links/',
+                'url' => 'https://sebsauvage.net/links/',
                 'name' => 'Sebsauvage',
                 'desc' => 'Liens en vrac de sebsauvage',
                 'rss_type' => 'rss',
-                'rss' => 'https://sebsauvage.net/datas_links/?do=rss',
+                'rss' => 'https://sebsauvage.net/links/?do=rss',
                 'cats' => ['shaarli_techs', 'shaarli'],
                 'keywords' => ['tech'],
                 'desc_long' => [''],
             ],
             [
-                'url' => 'https://www.ecirtam.net/datas_links/',
+                'url' => 'https://ecirtam.net/links/',
                 'name' => 'Oros',
                 'desc' => 'Liens en vrac d\'Oros',
                 'rss_type' => 'rss',
-                'rss' => 'https://ecirtam.net/datas_links/?do=rss',
+                'rss' => 'https://ecirtam.net/links/?do=rss',
                 'cats' => ['shaarli_techs', 'shaarli'],
                 'keywords' => ['tech'],
                 'desc_long' => [''],
             ],
             [
-                'url' => 'https://www.ecirtam.net/opennews/',
+                'url' => 'https://ecirtam.net/opennews/',
                 'name' => 'OpenNews',
                 'desc' => 'Soumettre et diffuser ses liens - ouvert à tous',
                 'rss_type' => 'rss',
@@ -49,11 +49,11 @@ $datas_annuaire = [
                 'desc_long' => [''],
             ],
             [
-                'url' => 'https://dukeart.netlib.re/datas_links/',
+                'url' => 'https://dukeart.netlib.re/links/',
                 'name' => 'Duke',
                 'desc' => 'Liens en vrac de Duke',
                 'rss_type' => 'rss',
-                'rss' => 'https://dukeart.netlib.re/datas_links/?do=rss',
+                'rss' => 'https://dukeart.netlib.re/links/?do=rss',
                 'cats' => ['shaarli_techs', 'shaarli'],
                 'keywords' => ['tech'],
                 'desc_long' => [''],
@@ -119,11 +119,11 @@ $datas_annuaire = [
                 'desc_long' => [''],
             ],
             [
-                'url' => 'https://datas_links.hoa.ro',
+                'url' => 'https://links.hoa.ro',
                 'name' => 'ArthurHoaro',
                 'desc' => 'Les liens d\' ArthurHoaro' ,
                 'rss_type' => 'atom',
-                'rss' => 'https://datas_links.hoa.ro/feed/atom?',
+                'rss' => 'https://links.hoa.ro/feed/atom?',
                 'cats' => ['shaarli'],
                 'keywords' => ['tech', 'développeur web', 'full stack', 'PHP', 'Symfony', 'JS', 'NodeJS', 'VueJS', 'DevOps', 'Docker', 'Kubernetes', 'Java', 'Python', 'Ruby', 'logiciel libre', 'Shaarli', 'auto-hébergement', 'open source', 'Lyon', 'France', 'télétravail', 'professionnel', 'blog', 'code', 'développement', 'freelance', 'ingénierie logicielle'],
                 'desc_long' => [''],
@@ -133,7 +133,7 @@ $datas_annuaire = [
     'shaarli_actus' => [
         'cat_name' => 'Shaarli | Actus',
         'cat_id' => 'shaarli_actus',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://shaarli.mydjey.eu/',
                 'name' => 'Mydjey',
@@ -189,7 +189,7 @@ $datas_annuaire = [
     'sites_techs' => [
         'cat_name' => 'Sites Persos | Techs',
         'cat_id' => 'sites_techs',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://ecirtam.net/',
                 'name' => 'Site d\'Oros',
@@ -245,7 +245,7 @@ $datas_annuaire = [
     'blogs_penseurs' => [
         'cat_name' => 'Blogs | Penseurs et Essayistes',
         'cat_id' => 'blogs_penseurs',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://osd.ovh/',
                 'name' => 'Osd',
@@ -281,7 +281,7 @@ $datas_annuaire = [
     'communautes_techs' => [
         'cat_name' => 'Forums & Communautés | Techs',
         'cat_id' => 'communautes_techs',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://n-pn.fr/index.php',
                 'name' => 'N-pn.fr',
@@ -297,7 +297,7 @@ $datas_annuaire = [
     'communautes_autres' => [
         'cat_name' => 'Forums & Communautés | Autres',
         'cat_id' => 'communautes_autres',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://www.cactuspro.com/',
                 'name' => 'Au Cactus Francophone',
@@ -313,7 +313,7 @@ $datas_annuaire = [
     'projets' => [
         'cat_name' => 'Projets libres, libristes ou à sources publiques',
         'cat_id' => 'projets',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://www.pluxml.org/',
                 'name' => 'PluXml',
@@ -339,7 +339,7 @@ $datas_annuaire = [
     'services' => [
         'cat_name' => 'Services en ligne utile',
         'cat_id' => 'services',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://gchq.github.io/CyberChef/',
                 'name' => 'CyberChef',
@@ -365,7 +365,7 @@ $datas_annuaire = [
     'photographes' => [
         'cat_name' => 'Blogs | Photographes',
         'cat_id' => 'photographes',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'http://rijidepot.tuxfamily.org/',
                 'name' => 'Lydie Guézengar',
@@ -380,9 +380,9 @@ $datas_annuaire = [
     'emplois' => [
         'cat_name' => 'Offres d\'Emplois | Tech',
         'cat_id' => 'emplois_tech',
-        'datas_links' => [
+        'links' => [
             [
-                'url' => 'https://oldschooldev.io/feed.php?rss/categorie005/offres-emplois',
+                'url' => 'https://oldschooldev.io/index.php?categorie5/offres-emplois',
                 'name' => 'oldschooldev - Emplois',
                 'desc' => 'Offres d\'emplois tech publié sur OldsSchoolDev',
                 'rss_type' => 'rss',
@@ -395,7 +395,7 @@ $datas_annuaire = [
     'freelances' => [
         'cat_name' => 'Freelances | Dev',
         'cat_id' => 'freelances',
-        'datas_links' => [
+        'links' => [
             [
                 'url' => 'https://hoa.ro/',
                 'name' => 'ArthurHoaro',

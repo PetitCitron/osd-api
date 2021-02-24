@@ -11,7 +11,7 @@ $datas_links = [];
 /** @var array $datas_annuaire from datas_annuaire */
 foreach ($datas_annuaire as $cat)
 {
-    foreach ($cat['datas_links'] as $link) {
+    foreach ($cat['links'] as $link) {
         $datas_links[] = $link;
     }
 }

@@ -88,7 +88,7 @@ if (!empty($_GET['withStyle']) && $_GET['withStyle'] == 1) {
                     </tr>
                     </thead>
                     <tbody>
-                    <?php foreach ($cat['datas_links'] as $link): ?>
+                    <?php foreach ($cat['links'] as $link): ?>
                         <tr>
                             <td><a href="<?= $link['url'] ?>" rel="nofollow"><?= $link['name'] ?></a></td>
                             <td><?= $link['desc'] ?></td>

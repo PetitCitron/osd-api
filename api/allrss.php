@@ -27,7 +27,7 @@ echo '<?xml version="1.0"?>';
             $isEmptyCat = true;
 
             $xml .= '        <outline title="' . $cat['cat_name'] . '" text="' . $cat['cat_name'] . '" description="' . $cat['cat_name'] . '" type="folder">' . "\n";
-            foreach ($cat['datas_links'] as $link) {
+            foreach ($cat['links'] as $link) {
                 if (!empty($link['rss'])) {
                     $isEmptyCat = false;
                     $xml .= '            <outline title="' . $link['name'] . '" text="' . $link['name'] . '" description="' . $link['desc'] . '" type="' . $link['rss_type'] . '" xmlUrl="' . $link['rss'] . '" htmlUrl="' . url . '"/>' . "\n";
