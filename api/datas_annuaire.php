@@ -247,16 +247,6 @@ $datas_annuaire = [
         'cat_id' => 'blogs_penseurs',
         'links' => [
             [
-                'url' => 'https://osd.ovh/',
-                'name' => 'Osd',
-                'desc' => 'Observations stoïciennes et diverses',
-                'rss_type' => 'rss',
-                'rss' => 'http://osd.ovh/feed.php?rss',
-                'cats' => ['blogs_penseurs'],
-                'keywords' => ['penseurs', 'stoïcisme'],
-                'desc_long' => [''],
-            ],
-            [
                 'url' => 'http://autobiogramm.tuxfamily.org/',
                 'name' => 'autobiogramm',
                 'desc' => 'Blog d\'un neuro a +',
