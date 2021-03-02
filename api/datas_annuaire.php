@@ -266,6 +266,16 @@ $datas_annuaire = [
                 'keywords' => ['penseurs'],
                 'desc_long' => [''],
             ],
+            [
+                'url' => 'https://taosolitaire.ovh/',
+                'name' => 'Taoïsme Zen & solitaire',
+                'desc' => 'Blog sur le taoïsme Zen solitaire et philosophique',
+                'rss_type' => 'rss',
+                'rss' => 'http://taosolitaire.ovh/feed.php?rss',
+                'cats' => ['blogs_penseurs'],
+                'keywords' => ['penseurs'],
+                'desc_long' => [''],
+            ],
         ],
     ],
     'communautes_techs' => [
